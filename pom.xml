@@ -80,6 +80,19 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
             <groupId>dev.hilla</groupId>
             <artifactId>hilla-react</artifactId>
         </dependency>
@@ -123,6 +136,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.1.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <version>2.2.3</version>
         </dependency>
     </dependencies>
 
