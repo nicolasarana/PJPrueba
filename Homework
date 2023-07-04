@@ -1,0 +1,24 @@
+Desarrollo de la aplicación
+Se necesita desarrollar una aplicación para registrar y consultar Edificios y Dependencias del Poder
+Judicial del Neuquén.
+Cada Edificio está identificado por un ID y tiene los siguientes atributos:
+• nombre, tipo String
+• domicilio tipo String
+A su vez las Dependencias están también identificadas por un ID y poseen los atributos:
+• nombre, tipo String
+• domicilio, tipo String
+Un edificio puede tener una o más dependencias y una dependencia pertenece solo a 1 edificio.
+Se deben agregar los campos necesarios para representar esta relación tanto en la base de datos, como así
+también en el backend uitlizando JPA (ya viene integrado en spring-boot).
+En el frontend, se deberán crear las funcionalidades para administrar los edificios y dependencias (ABM)
+y para consultar los edificios de tal forma que al ingresar en un edificio se pueda visualizar fácilmente las
+dependencias de cada edificio.
+Para dar soporte a la aplicación se deberá crear el frontend y el backend, utilizando una base de datos en
+memoria (para mayor simplicidad).
+Deberán enviar un link al repositorio en donde reside el código fuente de la aplicación creada.
+A su vez, se deberán indicar los pasos a seguir para ejecutar la aplicación (una vez descargada en una pc
+local del Poder Judicial) y poder comprobar el correcto funcionamiento de la misma.
+Se tendrá en cuenta para su evaluación, el tiempo que se tarda en el desarrollo de la misma y la calidad
+del código fuente.
+En cuanto a la tecnología a utilizar para desarrollar la aplicación, la misma deberá ser creada utilizando el
+framework Hilla + React.
